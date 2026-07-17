@@ -7,4 +7,4 @@ labels: bug
 
 **What happened:**
 **What you expected:**
-**Where** (Claude.ai / Claude Code / other):
+**Where** (Claude.ai / Claude Code / Codex / other):

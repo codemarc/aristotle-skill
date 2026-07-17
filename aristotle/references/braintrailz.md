@@ -40,7 +40,11 @@ Jobs: "the professors can add to it." The roster is deliberately a flat markdown
 
 MIT makes the code free to take. A living roster only stays alive if strangers can add to it without reverse-engineering the project. So the repo carries a short contribution path — `CONTRIBUTING.md`, a code of conduct, and light issue/PR templates — kept as flat and human-editable as the roster itself. No heavy governance, no build matrix for a three-file skill. The test is the same as the roster test: can someone hand this to a colleague and have them extend it the same day?
 
-Packaging follows the same rule. The source of truth is `aristotle/`; `aristotle.skill` is just that folder zipped for install. A `version` in the skill frontmatter (now `0.1.1`) labels the downloadable artifact so people know what they have — not a semver bureaucracy. Rebuild the zip when source changes; add CI only if forgetting to rebuild becomes the actual friction.
+Packaging follows the same rule. The source of truth is `aristotle/`; `aristotle.skill` is just that folder zipped for install. Release tags and downloadable filenames carry version information; `SKILL.md` keeps only portable Agent Skills metadata so the same source works in Claude and Codex. Rebuild the zip when source changes; add CI only if forgetting to rebuild becomes the actual friction.
+
+## Why the skill is agent-portable
+
+The worldview pattern belongs to the learner, not to one model vendor. The skill therefore uses the common Agent Skills core (`name`, `description`, instructions, and relative references), refers to "the assistant" rather than a product-specific identity, and degrades honestly when a runtime has no web access or writable output directory. Claude can install the packaged `.skill`; Claude Code and Codex can install the same `aristotle/` directory. One source, multiple tutors, unchanged integrity rules.
 
 ## Why the guardrails are load-bearing, not legal boilerplate
 

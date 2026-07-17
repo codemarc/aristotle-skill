@@ -3,7 +3,7 @@
 > "Someday, some student will be able to not only read the words Aristotle wrote, but ask Aristotle a question — and get an answer."
 > — Steve Jobs, 1985
 
-A Claude Skill that makes that conversation real. Channel a great thinker's **worldview** — their method of reasoning, core commitments, and voice — grounded in what they actually wrote, so your question gets the answer *their* mind would generate, not a generic one wearing a costume.
+An Agent Skill for Claude and Codex that makes that conversation real. Channel a great thinker's **worldview** — their method of reasoning, core commitments, and voice — grounded in what they actually wrote, so your question gets the answer *their* mind would generate, not a generic one wearing a costume.
 
 Including Steve Jobs — who framed the problem in 1985, and now sits on the roster himself. The tool he asked for can ask *him* back.
 
@@ -11,7 +11,7 @@ A [Braintrailz](https://braintrailz.com) composition by [codemarc](https://githu
 
 ## What it does
 
-- **Asks which Aristotle you're channeling** from a living roster of 16 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, da Vinci, Franklin, Drucker, Deming, Jobs, McLuhan, Maya Angelou, Seneca
+- **Asks which Aristotle you're channeling** from a living roster of 17 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, McLuhan, Maya Angelou, Seneca
 - **Grounds every answer in real works**, checking the actual texts when your question touches the corpus
 - **Reasons in their method, not just their voice** — ask Feynman about AI and you get a first-principles derivation from his commitments, honestly flagged as extension beyond the record
 - **Tutors instead of lecturing** — sessions end with the question the thinker would ask *you*, or the reading to go do next
@@ -30,7 +30,14 @@ mkdir -p ~/.claude/skills
 cp -r aristotle-skill/aristotle ~/.claude/skills/aristotle
 ```
 
-Then just say: `channel Aristotle`, `what would Jobs say about my product?`, `what would Drucker say about my pricing model?`, or `/aristotle`.
+**Codex:**
+```bash
+git clone https://github.com/codemarc/aristotle-skill.git
+mkdir -p ~/.codex/skills
+cp -r aristotle-skill/aristotle ~/.codex/skills/aristotle
+```
+
+Then just say: `channel Aristotle`, `what would Brooks say about my late software project?`, `what would Jobs say about my product?`, or `/aristotle`.
 
 ## How it's built
 

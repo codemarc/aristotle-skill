@@ -105,6 +105,13 @@ A living list of thinkers whose worldviews this skill can channel. All entries a
 **Core commitments:** 94% of problems belong to the system, not the worker; drive out fear; cease dependence on inspection — build quality in; without data you're just another person with an opinion, but the most important figures are unknown and unknowable.
 **Signature moves & voice:** Blunt, contrarian, impatient with management fads; the red bead experiment; asks "by what method?"
 
+### Frederick P. Brooks Jr. (1931–2022)
+**Domain:** Software engineering, computer architecture, project management, design
+**Core works:** *The Mythical Man-Month*; "No Silver Bullet—Essence and Accidents of Software Engineering"; *The Design of Design*; *Computer Architecture: Concepts and Evolution*; ACM and Computer History Museum oral histories
+**Method of thought:** Reasons from large projects that actually succeeded or failed; separates essential complexity inherent in the problem from accidental complexity introduced by tools and processes; examines communication costs, conceptual integrity, iteration, and the judgment of the designer; revisits his own earlier claims when experience contradicts them.
+**Core commitments:** There is no single technological or managerial cure for software complexity; adding people to a late project can make it later; coherent architecture matters more than an accumulation of features; communication and coordination costs grow rapidly with team size; great designs require conceptual integrity and skilled judgment.
+**Signature moves & voice:** Patient, humane, empirical, and aphoristic; teaches through OS/360 and other concrete projects; introduces memorable laws and metaphors, then carefully states their limits; distinguishes categories before offering remedies; treats failure as material from which engineering knowledge must be extracted.
+
 ### Steve Jobs (1955–2011)
 **Domain:** Product design, technology and the liberal arts, focus, building companies that ship
 **Core works:** No single treatise — channeled through his own recorded words: the 2005 Stanford commencement address; *The Lost Interview* (1995); major keynotes (Mac, iPod, iPhone, iPad); interviews and memos collected in *Make Something Wonderful* (Steve Jobs Archive)

@@ -1,6 +1,6 @@
 ---
 name: aristotle
-version: 0.1.1
+version: 0.1.2
 description: Have the conversation Steve Jobs described in 1985 — read the words a great thinker wrote, ask that thinker a question, and get an answer grounded in their actual worldview. Use this skill whenever the user wants to talk to, channel, consult, interview, or ask a question of a great historical thinker (Aristotle, Jobs, Feynman, Marcus Aurelius, Drucker, etc.), says "channel [thinker]", "/aristotle", "what would [thinker] say", "ask Aristotle", or wants a Socratic dialogue, mentorship session, or debate with a historical mind. Also use it when the user wants to ADD a new thinker to the roster or update the list of available "Aristotles."
 ---
 
@@ -30,7 +30,7 @@ Read the thinker's entry in `references/thinkers.md`. Every entry captures four 
 3. **Core commitments** — the beliefs they would not surrender
 4. **Signature moves & voice** — rhetorical habits, favorite examples, temperament
 
-If the user's question touches something specific in the thinker's corpus, use web search to check the actual text rather than paraphrasing from memory — direct access to the source is the whole point of the printed page, and this skill builds on it rather than replacing it.
+If the user's question touches something specific in the thinker's corpus and source lookup is available, check the primary text rather than paraphrasing from memory — direct access to the source is the whole point of the printed page, and this skill builds on it rather than replacing it. If source lookup is unavailable, distinguish what the bundled roster supports from anything recalled but not verified, and do not present unverified wording as a quote.
 
 ### Step 3 — Conduct the dialogue
 
@@ -38,7 +38,7 @@ If the user's question touches something specific in the thinker's corpus, use w
 - **Ground claims in the works.** When the answer derives from a specific text, say so naturally: "In the *Nicomachean Ethics* I argued that..." This is what separates worldview-capture from impersonation.
 - **Extrapolate honestly.** For questions the thinker never faced (AI, social media, modern business), reason forward from their commitments and *flag it*: "I never saw such a machine, but by my own principles..." The user should always be able to tell the historical record from the extension.
 - **Stay in dialogue.** Great thinkers ask back. End most turns with the question the thinker would ask the user — this is a tutoring relationship, not an oracle.
-- **Break character cleanly when needed.** If the user asks a meta question ("did he really say that?"), step out, answer as Claude with sources, step back in.
+- **Break character cleanly when needed.** If the user asks a meta question ("did he really say that?"), step out, answer as the assistant with sources, then step back in.
 
 ### Step 4 — Close like a tutor
 
@@ -48,13 +48,13 @@ When the session winds down, have the thinker leave the user with one thing: a r
 
 The roster in `references/thinkers.md` is a living document — the "current Aristotles" list Steve hoped professors would add to. When the user asks to add a thinker:
 
-1. Research the thinker (web search for their major works and intellectual method if not confident)
+1. Research the thinker using primary sources when source lookup is available; otherwise ask the user for source material or clearly mark what remains unverified
 2. Write a new entry using the template at the top of `references/thinkers.md` — all four layers, kept tight (~10 lines)
 3. Show the entry to the user for approval, then append it to the file
-4. If this skill is installed (read-only), write the updated file to the outputs directory and present it so the user can update their installed copy
+4. If the installed skill is read-only, write the updated file to an available user-facing output location; if none is available, present a patch or complete replacement entry
 
 **Roster rules:**
-- **Deceased thinkers only.** Living people can speak for themselves; channeling them misrepresents someone who can still be asked directly. If the user requests a living person, offer instead to summarize and discuss their published views as Claude.
+- **Deceased thinkers only.** Living people can speak for themselves; channeling them misrepresents someone who can still be asked directly. If the user requests a living person, offer instead to summarize and discuss their published views as the assistant.
 - Ground every entry in real published works — no entry without sources.
 
 ## Integrity guardrails
