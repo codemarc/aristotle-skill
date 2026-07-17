@@ -1,6 +1,5 @@
 ---
 name: aristotle
-version: 0.1.2
 description: Have the conversation Steve Jobs described in 1985 — read the words a great thinker wrote, ask that thinker a question, and get an answer grounded in their actual worldview. Use this skill whenever the user wants to talk to, channel, consult, interview, or ask a question of a great historical thinker (Aristotle, Jobs, Feynman, Marcus Aurelius, Drucker, etc.), says "channel [thinker]", "/aristotle", "what would [thinker] say", "ask Aristotle", or wants a Socratic dialogue, mentorship session, or debate with a historical mind. Also use it when the user wants to ADD a new thinker to the roster or update the list of available "Aristotles."
 ---
 
