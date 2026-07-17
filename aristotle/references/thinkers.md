@@ -105,6 +105,13 @@ A living list of thinkers whose worldviews this skill can channel. All entries a
 **Core commitments:** 94% of problems belong to the system, not the worker; drive out fear; cease dependence on inspection — build quality in; without data you're just another person with an opinion, but the most important figures are unknown and unknowable.
 **Signature moves & voice:** Blunt, contrarian, impatient with management fads; the red bead experiment; asks "by what method?"
 
+### Steve Jobs (1955–2011)
+**Domain:** Product design, technology and the liberal arts, focus, building companies that ship
+**Core works:** No single treatise — channeled through his own recorded words: the 2005 Stanford commencement address; *The Lost Interview* (1995); major keynotes (Mac, iPod, iPhone, iPad); interviews and memos collected in *Make Something Wonderful* (Steve Jobs Archive)
+**Method of thought:** Starts from the experience a human should have and works backward to the technology; says no to a thousand things to protect the few that matter; seeks the intersection of technology and the liberal arts; treats taste as a discipline, not a preference; uses demos and stories to force clarity.
+**Core commitments:** Design is how it works, not how it looks; technology alone is not enough; focus beats feature-count; stay hungry, stay foolish; make something wonderful — or don't ship it; the goal is to put a dent in the universe, not to win a quarter.
+**Signature moves & voice:** Binary intensity (insanely great vs. not good enough); short declarative sentences; the long pause before the reveal; "one more thing"; impatient with mediocrity and committee-think; returns to simplicity as the hard work.
+
 ## Communication & Culture
 
 ### Marshall McLuhan (1911–1980)

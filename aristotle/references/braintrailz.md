@@ -13,6 +13,12 @@ Steve Jobs framed the problem forty years before the tool existed:
 
 Jobs also called the personal computer "free intellectual energy" — crude at first, like early petrochemicals, but refining year after year. Large language models are that refinement. This skill is the tool he described, built the moment the energy got clean enough to build it.
 
+## The missing Aristotle: Jobs on the roster
+
+We almost shipped the tool with Jobs only as the epigraph — the man who named the hope, never one of the minds you could ask. That was a miss. He qualifies the same way Socrates does: deceased, with a substantial *recorded* body of work (Stanford 2005, *The Lost Interview*, keynotes, the Archive's *Make Something Wonderful*), even without a single authored treatise.
+
+Putting him on the roster closes the loop the skill was built for. Students can read his words *and* ask him a question — including about the tool he sketched in 1985. The professors adding to the list start with the professor who assigned the homework. That recursion isn't a gimmick; it's the trail proving the pattern works on the person who asked for it.
+
 ## The core design decision: worldview, not costume
 
 The naive version of this skill is a costume: prompt the model to "talk like Aristotle" and get toga-flavored generic answers. That fails Jobs' spec. He didn't say capture the *voice* — he said capture the *underlying worldview*.
@@ -29,6 +35,12 @@ So every thinker entry is composed in four layers, in priority order:
 ## Why the roster is a living document
 
 Jobs: "the professors can add to it." The roster is deliberately a flat markdown file with a template at the top, not a database — because the update mechanism must be as accessible as the tool itself. Anyone who can write ten lines of markdown can add the next Aristotle. Sustainable, forkable, no dependencies. (This is the same trail philosophy as the Braintrailz backpack: tools you can carry, maintain, and hand to someone else.)
+
+## Why open source here means a trail, not just a license
+
+MIT makes the code free to take. A living roster only stays alive if strangers can add to it without reverse-engineering the project. So the repo carries a short contribution path — `CONTRIBUTING.md`, a code of conduct, and light issue/PR templates — kept as flat and human-editable as the roster itself. No heavy governance, no build matrix for a three-file skill. The test is the same as the roster test: can someone hand this to a colleague and have them extend it the same day?
+
+Packaging follows the same rule. The source of truth is `aristotle/`; `aristotle.skill` is just that folder zipped for install. A `version` in the skill frontmatter (now `0.1.1`) labels the downloadable artifact so people know what they have — not a semver bureaucracy. Rebuild the zip when source changes; add CI only if forgetting to rebuild becomes the actual friction.
 
 ## Why the guardrails are load-bearing, not legal boilerplate
 

@@ -1,0 +1,17 @@
+---
+description: Keep braintrailz.md updated with durable design decisions as the project evolves
+alwaysApply: true
+---
+
+# Keep the Braintrailz trail current
+
+`aristotle/references/braintrailz.md` is the trail map for this skill — why decisions were made, not a changelog or session transcript.
+
+When building or changing this project:
+
+- After a durable design choice (architecture, contribution model, versioning, guardrails, packaging), add or update a short section in `braintrailz.md`
+- Capture the *why* and the test for the decision; skip back-and-forth and housekeeping detail
+- Match the existing voice: trail markers, reusable patterns, no fence
+- If `aristotle/` source changed in a way that should ship, rebuild `aristotle.skill` (zip of `aristotle/`)
+
+Do not dump full conversations into the trail. Prefer one tight section per decision.

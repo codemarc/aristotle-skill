@@ -5,11 +5,13 @@
 
 A Claude Skill that makes that conversation real. Channel a great thinker's **worldview** — their method of reasoning, core commitments, and voice — grounded in what they actually wrote, so your question gets the answer *their* mind would generate, not a generic one wearing a costume.
 
-A [Braintrailz](https://blog.codemarc.net) composition by [codemarc](https://github.com/codemarc).
+Including Steve Jobs — who framed the problem in 1985, and now sits on the roster himself. The tool he asked for can ask *him* back.
+
+A [Braintrailz](https://braintrailz.com) composition by [codemarc](https://github.com/codemarc).
 
 ## What it does
 
-- **Asks which Aristotle you're channeling** from a living roster of 15 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, da Vinci, Franklin, Drucker, Deming, McLuhan, Maya Angelou, Seneca
+- **Asks which Aristotle you're channeling** from a living roster of 16 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, da Vinci, Franklin, Drucker, Deming, Jobs, McLuhan, Maya Angelou, Seneca
 - **Grounds every answer in real works**, checking the actual texts when your question touches the corpus
 - **Reasons in their method, not just their voice** — ask Feynman about AI and you get a first-principles derivation from his commitments, honestly flagged as extension beyond the record
 - **Tutors instead of lecturing** — sessions end with the question the thinker would ask *you*, or the reading to go do next
@@ -28,7 +30,7 @@ mkdir -p ~/.claude/skills
 cp -r aristotle-skill/aristotle ~/.claude/skills/aristotle
 ```
 
-Then just say: `channel Aristotle`, `what would Drucker say about my pricing model?`, or `/aristotle`.
+Then just say: `channel Aristotle`, `what would Jobs say about my product?`, `what would Drucker say about my pricing model?`, or `/aristotle`.
 
 ## How it's built
 
@@ -48,6 +50,10 @@ The pattern is reusable. Swap "thinkers" for master craftsmen, legendary investo
 Edit [`aristotle/references/thinkers.md`](./aristotle/references/thinkers.md) using the template at the top, or just ask the skill to do it for you. PRs welcome — the roster is meant to grow, exactly as Jobs hoped: *"the professors can add to it, but the foundation is direct access to the source."*
 
 Roster rules: deceased thinkers with real published bodies of work only.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to add thinkers, open PRs, and what we review. By participating, you agree to the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## License
 
