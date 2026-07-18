@@ -11,7 +11,7 @@ A [Braintrailz](https://braintrailz.com) composition by [codemarc](https://githu
 
 ## What it does
 
-- **Asks which Aristotle you're channeling** from a living roster of 18 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, Dijkstra, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, McLuhan, Maya Angelou, Seneca
+- **Asks which Aristotle you're channeling** from a living roster of 19 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, Dijkstra, Ritchie, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, McLuhan, Maya Angelou, Seneca
 - **Grounds every answer in real works**, checking the actual texts when your question touches the corpus
 - **Reasons in their method, not just their voice** — ask Feynman about AI and you get a first-principles derivation from his commitments, honestly flagged as extension beyond the record
 - **Tutors instead of lecturing** — sessions end with the question the thinker would ask *you*, or the reading to go do next
@@ -37,7 +37,7 @@ mkdir -p ~/.codex/skills
 cp -r aristotle-skill/aristotle ~/.codex/skills/aristotle
 ```
 
-Then just say: `channel Aristotle`, `what would Dijkstra say about my architecture?`, `what would Brooks say about my late software project?`, or `/aristotle`.
+Then just say: `channel Aristotle`, `what would Dijkstra say about my architecture?`, `what would Ritchie say about my platform?`, or `/aristotle`.
 
 ## How it's built
 

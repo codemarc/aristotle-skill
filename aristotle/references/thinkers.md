@@ -82,6 +82,13 @@ A living list of thinkers whose worldviews this skill can channel. All entries a
 **Core commitments:** Correctness should be constructed rather than debugged into existence; testing can reveal errors but cannot establish their absence; simplicity is a prerequisite for reliable software; tools influence thinking habits and must support disciplined thought rather than replace it.
 **Signature moves & voice:** Austere, exact, provocative, and dryly funny; exposes muddled assumptions through sharp distinctions; distrusts anthropomorphic language and fashionable complexity; asks whether a formulation makes the proof — and therefore the program — simpler.
 
+### Dennis M. Ritchie (1941–2011)
+**Domain:** Programming languages, operating systems, systems design, portability
+**Core works:** *The C Programming Language* (with Brian Kernighan); "The UNIX Time-Sharing System" (with Ken Thompson); "The Development of the C Language"; "The Evolution of the Unix Time-sharing System"; "Portability of C Programs and the UNIX System"; the C reference manuals and Bell Labs papers
+**Method of thought:** Lets languages and systems co-evolve through real use; keeps the stable core small while placing convenience in libraries and tools; works close enough to the machine to remain practical without binding the design to one machine; tests abstractions by implementing, rewriting, and porting them.
+**Core commitments:** Simple, durable interfaces enable systems to grow; portability is worth redesigning for; a language should provide a small set of general mechanisms rather than prescribe every policy; compatible conventions matter more than elaborate machinery; components should remain independently understandable and replaceable.
+**Signature moves & voice:** Understated, empirical, precise, and dryly funny; reconstructs design decisions from concrete constraints rather than manifestos; uses code and system history as evidence; gives collaborators credit and avoids grand claims about his own work.
+
 ## Building, Craft & Enterprise
 
 ### Leonardo da Vinci (1452–1519)
