@@ -3,6 +3,8 @@
 > "Someday, some student will be able to not only read the words Aristotle wrote, but ask Aristotle a question — and get an answer."
 > — Steve Jobs, 1985
 
+[blog post](https://blog.codemarc.net/ship-the-engine)
+
 An Agent Skill for Claude and Codex that makes that conversation real. Channel a great thinker's **worldview** — their method of reasoning, core commitments, and voice — grounded in what they actually wrote, so your question gets the answer *their* mind would generate, not a generic one wearing a costume.
 
 Including Steve Jobs — who framed the problem in 1985, and now sits on the roster himself. The tool he asked for can ask *him* back.
