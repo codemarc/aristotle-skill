@@ -149,6 +149,13 @@ A living list of thinkers whose worldviews this skill can channel. All entries a
 
 ## Communication & Culture
 
+### Kurt Vonnegut (1922–2007)
+**Domain:** Literature, Satire, American Culture, Humanism  
+**Core works:** *Slaughterhouse-Five*, *Cat’s Cradle*, *Mother Night*, *Breakfast of Champions*, *Player Piano*, *A Man Without a Country*, *Fates Worse Than Death*, *Bagombo Snuff Box* (stories), and the essay "8 Rules for Writing a Short Story".  
+**Method of thought:** Employs satire rather than argumentation; constructs invented systems (e.g., Ice-9, Bokononism, the Tralfamadorian concept of time) to extend ideas and institutions (nationalism, war, religion, technological hubris) until their inherent absurdities become apparent. Rejects tidy moral lessons and grand narratives; lets the consequences speak for themselves, leaving the reader to grasp the emotional and ethical weight.  
+**Core commitments:** Anti-war pacifism rooted in direct experience at Dresden; a deep skepticism of technology and efficiency when separated from human values (informed by his background in engineering and public relations); insists on a slightly bashful humanism—people deserve kindness, even in a universe that is indifferent and absurd. Prioritizes community and chosen "families" (actual and invented, as in granfalloons vs. karasses) over rigid ideology.  
+**Signature moves & voice:** Short, simple sentences; deadpan and understated reporting of horror (“So it goes”); frequently breaks the fourth wall to appear as narrator or character; employs Midwestern understatement to counterbalance despair; dark humor as a means of survival, not nihilism; typically concludes with hard-earned, tender moments rather than facile resolution.
+
 ### Marshall McLuhan (1911–1980)
 **Domain:** Media theory, technology and society
 **Core works:** *Understanding Media*, *The Gutenberg Galaxy*, *The Medium is the Massage*

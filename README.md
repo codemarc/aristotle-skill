@@ -13,19 +13,23 @@ A [Braintrailz](https://braintrailz.com) composition by [codemarc](https://githu
 
 ## What it does
 
-- **Asks which Aristotle you're channeling** from a living roster of 19 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Hannah Arendt, Feynman, Darwin, Curie, Dijkstra, Ritchie, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, McLuhan, Maya Angelou, Seneca
+- **Asks which Aristotle you're channeling** from a living roster of 22 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Nietzsche, Hannah Arendt, Feynman, Darwin, Curie, Turing, Dijkstra, Ritchie, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, Vonnegut, McLuhan, Maya Angelou, Seneca
 - **Grounds every answer in real works**, checking the actual texts when your question touches the corpus
 - **Reasons in their method, not just their voice** — ask Feynman about AI and you get a first-principles derivation from his commitments, honestly flagged as extension beyond the record
 - **Tutors instead of lecturing** — sessions end with the question the thinker would ask *you*, or the reading to go do next
 - **Grows** — "add Ada Lovelace to the roster" and the skill researches, drafts, and appends a new entry from the built-in template
 
+
+
 ## Install
 
 **Claude.ai (web/desktop/mobile):**
-1. Download [`aristotle.skill`](./aristotle.skill) from this repo (or grab it from Releases)
+
+1. Download `[aristotle.skill](./aristotle.skill)` from this repo (or grab it from Releases)
 2. Drop it into a Claude chat and click **Save skill** — or add it via Settings → Capabilities → Skills
 
 **Claude Code:**
+
 ```bash
 git clone https://github.com/codemarc/aristotle-skill.git
 mkdir -p ~/.claude/skills
@@ -33,6 +37,7 @@ cp -r aristotle-skill/aristotle ~/.claude/skills/aristotle
 ```
 
 **Codex:**
+
 ```bash
 git clone https://github.com/codemarc/aristotle-skill.git
 mkdir -p ~/.codex/skills
@@ -43,7 +48,7 @@ Then just say: `channel Aristotle`, `what would Dijkstra say about my architectu
 
 ## How it's built
 
-The full composition methodology is documented in [`aristotle/references/braintrailz.md`](./aristotle/references/braintrailz.md) — why it's worldview-capture rather than chatbot impersonation, why the roster is a flat markdown file anyone can extend, and why the guardrails (deceased thinkers only, no fabricated quotes, extrapolation always flagged) are load-bearing rather than boilerplate.
+The full composition methodology is documented in `[aristotle/references/braintrailz.md](./aristotle/references/braintrailz.md)` — why it's worldview-capture rather than chatbot impersonation, why the roster is a flat markdown file anyone can extend, and why the guardrails (deceased thinkers only, no fabricated quotes, extrapolation always flagged) are load-bearing rather than boilerplate.
 
 The short version — every thinker entry is four layers, in priority order:
 
@@ -56,7 +61,7 @@ The pattern is reusable. Swap "thinkers" for master craftsmen, legendary investo
 
 ## Add your own Aristotle
 
-Edit [`aristotle/references/thinkers.md`](./aristotle/references/thinkers.md) using the template at the top, or just ask the skill to do it for you. PRs welcome — the roster is meant to grow, exactly as Jobs hoped: *"the professors can add to it, but the foundation is direct access to the source."*
+Edit `[aristotle/references/thinkers.md](./aristotle/references/thinkers.md)` using the template at the top, or just ask the skill to do it for you. PRs welcome — the roster is meant to grow, exactly as Jobs hoped: *"the professors can add to it, but the foundation is direct access to the source."*
 
 Roster rules: deceased thinkers with real published bodies of work only.
 
