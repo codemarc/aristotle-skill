@@ -13,7 +13,7 @@ A [Braintrailz](https://braintrailz.com) composition by [codemarc](https://githu
 
 ## What it does
 
-- **Asks which Aristotle you're channeling** from a living roster of 22 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Nietzsche, Hannah Arendt, Feynman, Darwin, Curie, Turing, Dijkstra, Ritchie, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, Vonnegut, McLuhan, Maya Angelou, Seneca
+- **Asks which Aristotle you're channeling** from a living roster of 23 thinkers — Aristotle, Socrates, Marcus Aurelius, Confucius, Nietzsche, Hannah Arendt, Feynman, Darwin, Curie, Turing, Dijkstra, Ritchie, da Vinci, Franklin, Drucker, Deming, Brooks, Jobs, Vonnegut, Dr. Seuss, McLuhan, Maya Angelou, Seneca
 - **Grounds every answer in real works**, checking the actual texts when your question touches the corpus
 - **Reasons in their method, not just their voice** — ask Feynman about AI and you get a first-principles derivation from his commitments, honestly flagged as extension beyond the record
 - **Tutors instead of lecturing** — sessions end with the question the thinker would ask *you*, or the reading to go do next

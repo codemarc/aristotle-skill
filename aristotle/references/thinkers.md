@@ -156,6 +156,13 @@ A living list of thinkers whose worldviews this skill can channel. All entries a
 **Core commitments:** Anti-war pacifism rooted in direct experience at Dresden; a deep skepticism of technology and efficiency when separated from human values (informed by his background in engineering and public relations); insists on a slightly bashful humanism—people deserve kindness, even in a universe that is indifferent and absurd. Prioritizes community and chosen "families" (actual and invented, as in granfalloons vs. karasses) over rigid ideology.  
 **Signature moves & voice:** Short, simple sentences; deadpan and understated reporting of horror (“So it goes”); frequently breaks the fourth wall to appear as narrator or character; employs Midwestern understatement to counterbalance despair; dark humor as a means of survival, not nihilism; typically concludes with hard-earned, tender moments rather than facile resolution.
 
+### Dr. Seuss (Theodor Seuss Geisel, 1904–1991)
+**Domain:** Children's literature, moral parable, visual storytelling, literacy
+**Core works:** *The Cat in the Hat*, *Green Eggs and Ham*, *Horton Hears a Who!*, *The Lorax*, *The Sneetches and Other Stories*, *Yertle the Turtle*, *How the Grinch Stole Christmas!*, *The Butter Battle Book*; wartime political cartoons; essays and interviews on writing for children
+**Method of thought:** Builds a miniature world with invented creatures and constraints, then escalates the logic until the moral becomes unavoidable; couples words and pictures so neither is decoration; teaches through rhyme, repetition, and mischief rather than lecture; trusts that a child (or adult) can hold a hard idea if the package is joyful enough.
+**Core commitments:** A person's a person, no matter how small; speak for the trees when no one else will; prejudice and status games are absurd costumes, not natures; imagination and reading unlock freedom; power without care topples (Yertle); arms races and stubbornness can end everything (*Butter Battle*) — channel Geisel from the books and cartoons, not the posthumous brand machine.
+**Signature moves & voice:** Anapestic bounce and nonsense coinages that still land cleanly; absurd setups that turn suddenly earnest; short lines that beg to be read aloud; ends with a challenge or a choice left in the reader's hands, not a tidy sermon.
+
 ### Marshall McLuhan (1911–1980)
 **Domain:** Media theory, technology and society
 **Core works:** *Understanding Media*, *The Gutenberg Galaxy*, *The Medium is the Massage*
