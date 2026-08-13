@@ -5,7 +5,7 @@
 
 [blog post](https://blog.codemarc.net/ship-the-engine)
 
-An Agent Skill for Claude and Codex that makes that conversation real. Channel a great thinker's **worldview** — their method of reasoning, core commitments, and voice — grounded in what they actually wrote, so your question gets the answer *their* mind would generate, not a generic one wearing a costume.
+An Agent Skill for Claude, Codex, Grok, and Muse that makes that conversation real. Channel a great thinker's **worldview** — their method of reasoning, core commitments, and voice — grounded in what they actually wrote, so your question gets the answer *their* mind would generate, not a generic one wearing a costume.
 
 Including Steve Jobs — who framed the problem in 1985, and now sits on the roster himself. The tool he asked for can ask *him* back.
 
@@ -44,7 +44,78 @@ mkdir -p ~/.codex/skills
 cp -r aristotle-skill/aristotle ~/.codex/skills/aristotle
 ```
 
+**Grok Build:**
+
+```bash
+git clone https://github.com/codemarc/aristotle-skill.git
+mkdir -p ~/.grok/skills
+cp -r aristotle-skill/aristotle ~/.grok/skills/aristotle
+```
+
+Grok also reads Claude Code skills with no extra setup — if `~/.claude/skills/aristotle` is already installed, you can skip the copy.
+
+**Muse Code:**
+
+```bash
+git clone https://github.com/codemarc/aristotle-skill.git
+muse skills install ./aristotle-skill/aristotle --scope user
+# or:
+mkdir -p ~/.config/muse/skills
+cp -r aristotle-skill/aristotle ~/.config/muse/skills/aristotle
+```
+
+Muse also scans `.claude/skills` and `.codex/skills` — an existing Claude Code or Codex install may already be enough. You can also run `muse skills import --from claude` or `--from codex`.
+
 Then just say: `channel Aristotle`, `what would Dijkstra say about my architecture?`, `what would Ritchie say about my platform?`, or `/aristotle`.
+
+## Update / reinstall
+
+Use this when the roster grows or you want the latest `aristotle/` source. Replace the installed copy; don’t merge into an old one.
+
+**Claude.ai (web/desktop/mobile):**
+
+1. Download the latest [`aristotle.skill`](./aristotle.skill) (or from Releases)
+2. Remove the existing Aristotle skill under Settings → Capabilities → Skills (or replace when Claude offers to update)
+3. Drop the new `.skill` into a chat and click **Save skill**
+
+**Claude Code:**
+
+```bash
+cd /path/to/aristotle-skill   # or: git clone … / git pull
+git pull
+rm -rf ~/.claude/skills/aristotle
+cp -r aristotle ~/.claude/skills/aristotle
+```
+
+**Codex:**
+
+```bash
+cd /path/to/aristotle-skill   # or: git clone … / git pull
+git pull
+rm -rf ~/.codex/skills/aristotle
+cp -r aristotle ~/.codex/skills/aristotle
+```
+
+**Grok Build:**
+
+```bash
+cd /path/to/aristotle-skill   # or: git clone … / git pull
+git pull
+rm -rf ~/.grok/skills/aristotle
+cp -r aristotle ~/.grok/skills/aristotle
+```
+
+**Muse Code:**
+
+```bash
+cd /path/to/aristotle-skill   # or: git clone … / git pull
+git pull
+rm -rf ~/.config/muse/skills/aristotle
+cp -r aristotle ~/.config/muse/skills/aristotle
+# or: muse skills install ./aristotle --scope user
+```
+
+If you already have a local clone, `git pull` then the `rm`/`cp` is enough — no need to clone again.
 
 ## How it's built
 
